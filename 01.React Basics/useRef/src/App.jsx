@@ -1,5 +1,6 @@
 import React from "react";
-import PlayPause from "./PlayPause";
+import ScrollingImage from "./ScrollingImg";
+// import PlayPause from "./PlayPause";
 // import Stopwatch from "./Stopwatch";
 
 const App = () => {
@@ -7,7 +8,8 @@ const App = () => {
     <div>
       {/* <Stopwatch />
        */}
-      <PlayPause />
+      {/* <PlayPause /> */}
+      <ScrollingImage />
     </div>
   );
 };
